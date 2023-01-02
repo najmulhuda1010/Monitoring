@@ -1,0 +1,185 @@
+/* css for form */
+table,th,td{
+	border: 1px solid #a9a9a9;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: 
+	padding: 20px;
+}
+.fname,.lname,.uname,.email,.pass,.cpass {
+	/*width: 100%;*/
+	/*padding: 12px;*/
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+label {
+	padding: 10px 10px 10px 0;
+	display: inline-block;
+}
+
+.submit {
+	background-color: #87cefa;
+	margin-top: 10px;
+	padding: 10px 10px;
+	border-radius: 6px;
+	cursor: pointer;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.date,.select,.check_box,#submit,#pdf {
+ 
+  float: left;
+  margin-right: 10px;
+}
+
+#check_box {
+	margin-left:-13px;
+}
+.scrollbar {
+    background-color: #F5F5F5;
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 5px;
+    width: 415px;
+    overflow-y: scroll;
+}
+.input_search{
+	float:right;
+}
+.xlsDownload{
+	float:right;
+	margin-top:-25px;
+}
+/**/
+/*@media screen and (min-width: 768px){
+	.fname,.lname,.uname,.email,.pass,.cpass {
+		width: 100%;
+	}
+
+	.submit {
+		width: 100%;
+	}
+
+}
+*/
+/*@media screen and (max-width: 992px){
+	.fname,.lname,.uname,.email,.pass,.cpass {
+		width: 100%;
+	}
+
+	.submit {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width:768px){
+	.fname,.lname,.uname,.email,.pass,.cpass {
+		width: 100%;
+	}
+
+	.submit {
+		width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width: 576px){
+	.fname,.lname,.uname,.email,.pass,.cpass {
+		width: 100%;
+	}
+
+	.submit {
+		width: 100%;
+	}*/
+
+
+
+/*#submit {
+	margin-left: 50px;
+}*/
+
+/*
+@media screen and (max-width: 768px){
+	table {
+		width: 100%;
+	}
+
+	
+
+}*/
+
+/*@media screen and (max-width: 991px){
+	.fname,.lname,.uname,.email,.pass,.cpass {
+		width: 100%;
+	}
+
+	.submit {
+		width: 100%;
+	}
+
+}
+*/
+/*@media screen and (max-width: 767px){
+	#pdf {
+ 
+	  margin-left: 30px;
+	 
+	}
+
+
+}*/
+
+/*@media screen and (max-width: 767px){
+	.date,.select,.check_box,#submit,#pdf {
+ 
+	  float: none;
+	 
+	}
+
+	#check_box {
+		margin-left:-13px;
+	}
+
+}*/
+
+/*td{
+	text-align: center
+}*/
+
+body{background:#99ddff;font-family:"Helvetica Neue",Roboto,Arial,"Droid Sans",sans-serif;font-size:13px;font-weight:400;line-height:1.471}
+
+/*for Nav Menu*/
+.nav_menu{float:left;background:linear-gradient(to right,#00334d,#99ddff);border-bottom:1px solid #D9DEE4;margin-bottom:10px;width:100%;position:relative}
+/*For Sidebar*/
+
+.navbar-brand,.navbar-nav>li>a,.site_title{color:#ECF0F1!important;background-color:#778899;margin-left:0!important}
+
+.sidebar{background:linear-gradient(#00334d,#99ddff)}
+.nav-sm .container.body .col-md-3.sidebar{min-height:100%;width:70px;padding:0;z-index:9999;position:absolute}
+.nav-sm .container.body .col-md-3.sidebar.menu_fixed{position:fixed;height:100%}
+.nav-sm .container.body .col-md-3.sidebar .mCSB_container,.nav-sm .container.body .col-md-3.sidebar .mCustomScrollBox{overflow:visible}
+.nav-md .container.body .col-md-3.sidebar{min-height:100%;width:230px;padding:0;position:absolute;display:-ms-flexbox;display:flex;z-index:1}
+.nav-md .container.body .col-md-3.sidebar.menu_fixed{height:100%;position:fixed}
+
+@media (max-width:991px){.nav-md .container.body .right_col,.nav-md .container.body .top_nav{width:100%;margin:0}.nav-md .container.body .col-md-3.sidebar{display:none}.nav-md .container.body .right_col{width:100%;padding-right:0}.right_col{padding:10px!important}}
+
+.sidebar .mCSB_scrollTools{width:6px}.sidebar .mCSB_dragger{max-height:400px!important}

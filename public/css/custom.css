@@ -1,0 +1,52 @@
+#rcorners {
+    border-radius: 5px;
+    border: 1px solid red;
+    background: white;
+    padding: 20px;
+    width: 100%;
+    margin-left: 0%;
+}
+.division {
+    background-color: #d7e4bc;
+    color: black;
+    width: 88%;
+    padding: 5px;
+    margin-left: 10px;
+}
+.brone {
+    margin-top: 6px;
+    color: black;
+    margin-left: 10px;
+}
+.region {
+    background-color: #8db4e3;
+    color: black;
+    width: 88%;
+    padding: 5px;
+    margin-left: 10px;
+}
+.column {
+    float: left;
+    width: 10%;
+}
+.area {
+    background-color: rgb(197, 190, 151);
+    color: black;
+    width: 88%;
+    padding: 5px;
+    margin-left: 10px;
+}
+.branch {
+    background-color: rgb(252, 213, 179);
+    color: black;
+    width: 88%;
+    padding: 5px;
+    margin-left: 10px;
+}
+.cycle
+{
+	width:22%;
+	height: 6%;
+	padding: 5px;
+	background: linear-gradient(#00334e,#99ddff);
+}
